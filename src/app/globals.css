@@ -7,6 +7,18 @@
   --foreground: #171717;
 }
 
+/****Custom Styles******************************************************************/
+input{
+  border-radius: 5%;
+}
+input[type=text]:focus {
+  border: 3px solid #555
+}
+.text-center {
+  text-align: center;
+}
+/**********************************************************************/
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
